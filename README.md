@@ -5,13 +5,13 @@
 <h2>Week-1</h2>
 <h3>Day-1</h3>
 <hr>
-<p>Started with python with the following details:</p><br>
+<p>Started with python with the following details:</p>
 <ul>
   <li>Environment Setup</li>
   <li>Data type</li>
   <li>if-elseloop</li>
   <li>for loop</li>
-</ul><br>
+</ul>
 <h3>Day-2(Data-structure)</h2>
 <hr>
 <ul>
@@ -20,7 +20,7 @@
   <li>dict</li>
   <li>set</li>
   <li>continue,break,pass</li>
-</ul><br>
+</ul>
 <h3>Day-3(Functions)</h2>
 <hr>
 <ul>
@@ -30,13 +30,13 @@
 </ul>
 <ul>
   <li>Lambda</li>
-</ul><br>
+</ul>
 <h3>Day-4</h2>
 <hr>
 <ul>
   <li>Modules</li>
   <li>Try Except</li>
-</ul><br>
+</ul>
 <h3>Day-5</h2>
 <hr>
 <ul>
