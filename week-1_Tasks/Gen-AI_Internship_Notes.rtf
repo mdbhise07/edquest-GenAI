@@ -1,0 +1,218 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\sa200\sl240\slmult1\f0\fs22\lang9\par
+
+\pard\sa200\sl240\slmult1\qj\b\fs32 Python Notes\par
+
+\pard\sl240\slmult1\fs22 1) Data Types in Python:\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl240\slmult1\b0 Data types define the type of value a variable can hold and the operations that can be performed on it.\par
+{\pntext\f0 ii.\tab}Python is dynamically typed, meaning you don't need to explicitly declare the data type of a variable.\par
+{\pntext\f0 iii.\tab}You can use the type() function to determine the data type of a variable.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li1440\sa200\sl240\slmult1 Numeric:\par
+
+\pard\li1440\sa200\sl240\slmult1 int: Represents whole numbers, e.g., 1, 100, -5.\par
+float: Represents decimal numbers, e.g., 3.14, -0.5.\par
+complex: Represents complex numbers with real and imaginary parts, e.g., 2 + 3j.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li1440\sa200\sl240\slmult1 String:\par
+
+\pard\li1440\sa200\sl240\slmult1 str: Represents a sequence of characters enclosed in single or double quotes, e.g., "hello", 'world'.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li1440\sa200\sl240\slmult1 Boolean:\par
+
+\pard\li1440\sa200\sl240\slmult1 bool: Represents a logical value, either True or False.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li1440\sa200\sl240\slmult1 Sequence:\par
+
+\pard\li1440\sa200\sl240\slmult1 list: An ordered, mutable collection of items, e.g., [1, 2, "three"].\par
+tuple: An ordered, immutable collection of items, e.g., (1, 2, "three").\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li1440\sa200\sl240\slmult1 Mapping:\par
+
+\pard\li1440\sa200\sl240\slmult1 dict: A collection of key-value pairs, e.g., \{"name": "Alice", "age": 30\}.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li1440\sa200\sl240\slmult1 Set:\par
+
+\pard\li1440\sa200\sl240\slmult1 set: An unordered collection of unique items, e.g., \{1, 2, 3\}.\par
+
+\pard\sa200\sl240\slmult1\b 2) if-else loop:\b0\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl240\slmult1 The if-else statement is a conditional statement, not a loop.\par
+{\pntext\f0 ii.\tab}Indentation: Python uses indentation to define code blocks. Ensure proper indentation to avoid errors.\par
+{\pntext\f0 iii.\tab}Conditions are expressions that evaluate to True or False. Comparison operators (==, !=, >, <, >=, <=) and logical operators (and, or, not) are commonly used in conditions.\par
+
+\pard\li720\sa200\sl240\slmult1 1. If Statement:\par
+
+\pard\li1440\sa200\sl240\slmult1 Syntax:\par
+if condition:\par
+
+\pard\li2160\sa200\sl240\slmult1   # Code to execute if the condition is True\par
+
+\pard\li720\sa200\sl240\slmult1 2. If-Else Statement:\par
+
+\pard\li1440\sa200\sl240\slmult1 Syntax:\par
+if condition:\par
+
+\pard\li2160\sa200\sl240\slmult1   # Code to execute if the condition is True\par
+
+\pard\li1440\sa200\sl240\slmult1 else:\par
+
+\pard\li2160\sa200\sl240\slmult1   # Code to execute if the condition is False\par
+
+\pard\li720\sa200\sl240\slmult1 3. If-Elif-Else Statement:\par
+
+\pard\li1440\sa200\sl240\slmult1 Syntax:\par
+if condition1:\par
+
+\pard\li2160\sa200\sl240\slmult1   # Code to execute if condition1 is True\par
+
+\pard\li1440\sa200\sl240\slmult1 elif condition2:\par
+
+\pard\li2160\sa200\sl240\slmult1   # Code to execute if condition1 is False and condition2 is True\par
+
+\pard\li1440\sa200\sl240\slmult1 else:\par
+
+\pard\li2160\sa200\sl240\slmult1   # Code to execute if all previous conditions are False\par
+
+\pard\sa200\sl240\slmult1\b 3) for loop:\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl240\slmult1\b0 Iterates over a sequence (list, tuple, string, range, etc.) and executes a block of code for each item in the sequence.\par
+
+\pard\li720\sa200\sl240\slmult1 Syntax:\par
+
+\pard\li1440\sa200\sl240\slmult1 for variable in sequence:\par
+    # Code to execute for each item\par
+
+\pard\li720\sa200\sl240\slmult1 Example:\par
+
+\pard\li1440\sa200\sl240\slmult1 fruits = ["apple", "banana", "cherry"]\par
+for fruit in fruits:\par
+    print(fruit)\par
+
+\pard\li720\sa200\sl240\slmult1 Execution output\par
+
+\pard\li1440\sa200\sl240\slmult1 apple\par
+banana\par
+cherry\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1\b range() \b0 function: Generates a sequence of numbers.\par
+
+\pard\li720\sa200\sl240\slmult1          Example:\par
+
+\pard\li1440\sa200\sl240\slmult1 for i in range(5):\par
+    print(i) # Prints numbers 0 to 4\par
+
+\pard\li720\sa200\sl240\slmult1 Execution output\par
+
+\pard\li1440\sa200\sl240\slmult1 0\par
+1\par
+2\par
+3\par
+4\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1\b enumerate() \b0 function: Keeps track of the index while iterating.\par
+
+\pard\li720\sa200\sl240\slmult1 Example:\par
+
+\pard\li1440\sa200\sl240\slmult1 for index, fruit in enumerate(fruits):\par
+    print(index, fruit)\par
+
+\pard\sa200\sl240\slmult1\par
+
+\pard\li720\sa200\sl240\slmult1 Execution output\par
+0 apple\par
+1 banana\par
+2 cherry\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1\b break statement\b0 : Exits the loop prematurely.\par
+{\pntext\f1\'B7\tab}\b continue statement\b0 : Skips the current iteration and moves to the next.\par
+
+\pard\sa200\sl240\slmult1\b 4)Data structure:\par
+
+\pard\li720\sa200\sl240\slmult1 Lists\b0 :Ordered, mutable collections of elements.\par
+
+\pard\li1440\sa200\sl240\slmult1 Syntax: my_list = [1, 2, "hello"]\par
+Operations: append(), remove(), insert(), pop(), slicing (my_list[1:3])\par
+
+\pard\li720\sa200\sl240\slmult1\b Tuples\b0 :Ordered, immutable collections of elements.\par
+
+\pard\li1440\sa200\sl240\slmult1 Syntax: my_tuple = (1, 2, "hello")\par
+Operations: Indexing (my_tuple[1]), slicing (my_tuple[1:3])\par
+
+\pard\li720\sa200\sl240\slmult1\b Sets\b0 :Unordered, mutable collections of unique elements.\par
+
+\pard\li1440\sa200\sl240\slmult1 Syntax: my_set = \{1, 2, "hello"\}\par
+Operations: add(), remove(), union(), intersection(), difference()\par
+
+\pard\li720\sa200\sl240\slmult1\b Dictionaries\b0 :Unordered, mutable collections of key-value pairs.\par
+
+\pard\li1440\sa200\sl240\slmult1 Syntax: my_dict = \{"name": "Alice", "age": 30\}\par
+Operations: my_dict["name"], my_dict.keys(), my_dict.values(), my_dict.items()\par
+\par
+
+\pard\li720\sa200\sl240\slmult1\b Abstract Data Types (ADTs):\par
+Stacks\b0 : Last-In-First-Out (LIFO) data structure.\par
+
+\pard\li1440\sa200\sl240\slmult1 Operations: push(), pop(), peek()\par
+Implementation: List (append() and pop()) or collections.deque\par
+
+\pard\li720\sa200\sl240\slmult1\b Queues\b0 :First-In-First-Out (FIFO) data structure.\par
+
+\pard\li1440\sa200\sl240\slmult1 Operations: enqueue(), dequeue(), front(), rear()\par
+Implementation: collections.deque\par
+
+\pard\li720\sa200\sl240\slmult1\b Linked Lists\b0 :Linear data structure where each element points to the next.\par
+
+\pard\li1440\sa200\sl240\slmult1 Operations: insert(), delete(), search()\par
+Implementation: Node class with data and next attributes\par
+
+\pard\li720\sa200\sl240\slmult1\b Trees\b0 :Hierarchical data structure with nodes and edges.\par
+
+\pard\li1440\sa200\sl240\slmult1 Types: Binary trees, binary search trees, heaps, etc.\par
+Operations: insert(), delete(), search(), traverse()\par
+Implementation: Node class with data, left, and right attributes\par
+
+\pard\li720\sa200\sl240\slmult1\b Graphs\b0 :Non-linear data structure with nodes and edges.\par
+
+\pard\li1440\sa200\sl240\slmult1 Types: Directed, undirected, weighted, etc.\par
+Operations: add_node(), add_edge(), search(), traverse()\par
+Implementation: Adjacency matrix or adjacency list\par
+Continue, Break, and Pass :These three keywords are used to control the flow of execution within loops (for or while).\par
+1. Continue: Skips the remaining code in the current iteration of a loop and moves to the next iteration.\par
+Syntax:\par
+Example:\par
+for i in range(5):\par
+    if i == 2:\par
+        continue\par
+    print(i)\par
+Execution Output: 0 1 3 4\par
+2. Break: Terminates the loop entirely and continues execution with the next statement after the loop.\par
+Syntax: \par
+Example:\par
+for i in range(5):\par
+    if i == 2:\par
+        break\par
+    print(i)\par
+Execution Output: 0 1\par
+3. Pass:Acts as a placeholder. It does nothing, but is used to maintain the syntax of the code when an empty block is required.\par
+Syntax:\par
+Example:\par
+for i in range(5):\par
+    if i == 2:\par
+        pass\par
+    print(i)\par
+Execution Output: 0 1 2 3 4\par
+
+\pard\li720\sa200\sl240\slmult1\par
+
+\pard\sa200\sl240\slmult1\par
+}
+ 
